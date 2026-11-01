@@ -1,8 +1,5 @@
+country=["Alemanha","Japão","Itália"]
 
+country.append("Brasil")
 
-Country=["Alemanha","Japão","Itália"]
-
-
-Country.append("Brasil")
-
-print(Country)
+print(country)

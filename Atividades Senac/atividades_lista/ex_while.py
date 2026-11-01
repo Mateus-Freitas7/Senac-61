@@ -3,10 +3,10 @@
 ###fazer um algoritimo que receba n números e some - os até que o usuário digite 0 para sair 
 #média dos números digitados
 
-quant=0
-soma=0
+quant = 0
+soma = 0
 
-num=int(input("digite um número:"))
+num = int(input("digite um número:"))
 while num != 0:
     soma+=num
     quant+=1

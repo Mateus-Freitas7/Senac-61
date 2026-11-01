@@ -1,6 +1,3 @@
-
-
-
 #for i in range(11): Tabuada do 5
    # mult = 5*i
     #print(5,"x",i,"=",mult)

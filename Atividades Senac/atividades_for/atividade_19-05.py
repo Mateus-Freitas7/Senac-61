@@ -2,9 +2,9 @@
 
 pao = float (input("Qual o preço do pão:"))
 preco = pao
-
-for i in range (1,51):
+quantidade = int(input("Quantidade que deseja levar:"))
+for i in range (1,quantidade):
     print("----------")
-    print(i,f"- R${pao:.2f}")
-    pao+= preco
+    print(f"{i} - R${pao:.2f}")
+    pao += preco
     
