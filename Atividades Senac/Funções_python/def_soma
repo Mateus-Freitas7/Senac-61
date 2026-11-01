@@ -1,0 +1,24 @@
+def soma(result):
+  print("Soma")
+  result = n1+n2+n3
+  return result
+while True:
+  try:
+    n1 = int (input("n1:"))
+    break
+  except:
+    print("Apenas números!")
+while True:
+    try:
+       n2 = int (input("n2:"))
+       break
+    except:
+       print("Apenas números!")
+while True:
+    try:
+       n3 = int (input("n3:"))
+       break
+    except:
+       print("Apenas números")
+result = soma(n1+n2+n3)
+print("Resultado da soma:",result)

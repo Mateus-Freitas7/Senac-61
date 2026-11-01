@@ -1,0 +1,20 @@
+
+
+def cadastro():
+
+    name =  (input("Nome:"))
+            
+    while True:
+        try:
+            idade = int(input("Idade:"))
+            break
+        except:
+            print("Apenas números!")
+
+    return name,idade
+print("iniciando cadastro...")
+name,idade = cadastro()
+print("Cadastro realizado com sucesso!")
+print("Seu nome é",name,"e você tem",idade,"anos de idade.")
+
+
