@@ -1,7 +1,3 @@
-
-
-// console.log("Hello World")
-
 let nome = "Mateus"
 let idade = 17
 
